@@ -278,4 +278,39 @@ main {
 
 /* ABOUT END */
 
+/* WORK START */
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.work__title {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 1.26em;
+  color: var(--black-color);
+}
+.work__list {
+  display: flex;
+  align-items: center;
+  padding-top: 8.8rem;
+  padding-bottom: 8.8rem;
+  gap: 3rem;
+}
+.work__item {
+}
+.work__img {
+}
+.work__btns {
+  display: flex;
+  align-items: center;
+}
+.work__btn1 {
+}
+.work__btn2 {
+}
+
+/* WORK END */
+
 /* MAIN END */
