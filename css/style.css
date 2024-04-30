@@ -294,23 +294,82 @@ main {
 .work__list {
   display: flex;
   align-items: center;
-  padding-top: 8.8rem;
-  padding-bottom: 8.8rem;
+  padding-top: 5.6rem;
+  padding-bottom: 5.6rem;
   gap: 3rem;
 }
-.work__item {
+/* .work__item {
 }
 .work__img {
-}
+} */
 .work__btns {
   display: flex;
   align-items: center;
+  gap: 1.6rem;
 }
-.work__btn1 {
+/* .work__btn1 {
 }
 .work__btn2 {
-}
+} */
+.work__black {
+  padding: 2.4rem;
+  background-color: var(--black-color);
+  border-radius: 50%;
+  transition: 0.3s;
 
+  &:hover {
+    background-color: var(--purple-color);
+  }
+}
+/* .work__arrow1 {
+}
+.work__arrow2 {
+} */
 /* WORK END */
 
+/* CONTACT START */
+
+.contact {
+  padding-top: 8.8rem;
+  padding-bottom: 5.6rem;
+}
+.contact__wrapper {
+  background-color: var(--black-color);
+  border-radius: 1rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  padding-left: 6.5rem;
+  padding-right: 9.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact__texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 540px;
+  gap: 2.5rem;
+}
+.contact__title {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1.26em;
+  color: var(--light-cream-color);
+}
+.contact__description {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.55em;
+  color: var(--light-cream-color);
+}
+/* .about__btn {
+} */
+
+/* CONTACT END */
+
 /* MAIN END */
+
+.footer {
+  margin-bottom: 6.4rem;
+}
