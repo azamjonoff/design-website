@@ -169,6 +169,7 @@ main {
 /* TYPES START */
 
 .types {
+  padding-bottom: 13.6rem;
 }
 .types__list {
   display: flex;
@@ -185,14 +186,17 @@ main {
   grid-template-rows: 1fr 1fr 1fr;
   justify-content: space-between;
   padding: 2.4rem;
+  border-radius: 8px;
 }
 .types__text {
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 1.26em;
   color: var(--white-color);
+  grid-row: end;
 }
 .types__images {
+  grid-column: end;
 }
 .types__item2 {
   display: flex;
@@ -233,5 +237,45 @@ main {
 }
 
 /* TYPES END */
+
+/* ABOUT START */
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8.8rem;
+}
+/* .about__img {
+} */
+.about__texts_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 540px;
+}
+.about__title {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1.26em;
+  color: var(--black-color);
+  margin-bottom: 3.4rem;
+}
+.about__description {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.55em;
+  color: var(--gray-color);
+  margin-bottom: 3.2rem;
+}
+.about__btn {
+  background-color: var(--dark-pink-color);
+
+  &:hover {
+    background-color: var(--orange-color);
+  }
+}
+
+/* ABOUT END */
 
 /* MAIN END */
